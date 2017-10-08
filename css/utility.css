@@ -478,7 +478,6 @@ button:hover {
 		display: initial;
 		font-size: 250px;
 		color: #FFC501;
-		margin-top: 140px;
 	}
 
 	.twenty-percent-container-flex {
@@ -488,12 +487,12 @@ button:hover {
 	}
 
 	.twenty-percent-item-left {
-		width: 50%;		
+		width: 50%;
+		margin-top: 140px;
 	}
 
 	.twenty-percent-item-right {
 		width: 50%;
-		margin-top: 80px;
 	}
 
 	.utility-headline {
