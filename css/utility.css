@@ -1,0 +1,609 @@
+
+/*HEADER*/
+
+/*Fixed Header*/
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.container {
+	padding-top: 9px;
+}
+
+nav p {
+	margin-top: 0;
+}
+
+/*FONT*/
+/*Font family & styling for main body*/
+body {
+	font-family: 'Lato', sans-serif;
+	color: #0D2379;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+footer {
+	font-family: 'roboto', sans-serif;
+	color: black;
+}
+
+/*Font family & styling for headings*/
+h1,
+h2 {
+	text-align: center;
+	font-family: 'roboto', sans-serif;
+	font-style: italic;
+	color: #FFC501;
+}
+
+h2 {
+	font-size: 28px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+
+.utility-headline {
+	font-size: 50px;
+	margin: 0.56em 0;
+	margin-top: 60px;
+}
+
+.utility-headline2 {
+	font-size: 15px;
+	color: #0D2379;
+	line-height: 2;
+}
+
+.who-heading {
+	margin-top: 60px;
+}
+
+.why-heading {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.twenty-percent {
+	font-family: 'Just Another Hand', cursive;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 120px;
+	line-height: 0.8;
+}
+
+.yousavings-heading {
+	margin-top: 60px;
+}
+
+	/*Styling for Testimonials heading*/
+.testimonials-heading {
+	margin-top: 130px;
+}
+
+	/*Styling for eligibility heading*/
+.eligibility-heading {
+	margin-top: 130px;
+}
+	/*Styling for 3 Steps heading*/
+.threestepsapplication-heading {
+	margin-top: 130px;
+}
+
+/*Styling for Content*/
+	/*styling for "WHO"*/
+.who-content {
+	font-size: 13px;
+	line-height: 1.2;
+	width: 90%;
+	max-width: 300px;
+	text-align: center;
+	margin: 18px auto;
+}
+
+	/*font family & styling for "WHY"*/
+
+.why-content {
+	font-family: 'Just Another Hand', cursive;
+	text-align: center;
+	font-size: 20px;
+}
+
+	/*Styling for Your Savings content*/
+.yoursavings-heading-container {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 400px;
+	margin: auto;
+}
+
+.yoursavings-light {
+	font-size: 11px;
+	font-weight: 200;
+}
+
+	/*Styling for testimonials-content*/
+.testimonials-content {
+	text-align: center;
+	line-height: 1.4;
+	width: 90%;
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.seawalk-content {
+	font-size: 12px;
+}
+
+	/*Styling for eligibility-content*/
+.eligibility-content {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+	/*Styling for 3 Steps Application content*/
+
+ol {
+	list-style-position: initial;
+}
+
+
+ol li {
+	font-size: 13px;
+	max-width: 250px;
+	margin: 30px auto;
+}
+
+
+/*IMAGES*/
+
+ 	/*hides light bulb img in mobile view*/
+.lightbulb-img {
+	display: none;
+}
+
+	/*SERAYA LOGO*/
+.serayalogo {
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 65px;
+}
+
+	/*WHY img*/
+.why-img {
+	display: block;
+	width: 108px;
+	height: 67px;
+	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+
+	/*Courts-logo*/
+.Courts-logo,
+.CPAS-logo,
+.seawalk-logo {
+	display: block;
+	margin: auto;
+	margin-bottom: 18px;
+	width: 67px;
+	height: 32px; 
+}
+
+.CPAS-logo,
+.seawalk-logo {
+	margin-top: 70px;
+}
+
+.seawalk-logo {
+	width: initial;
+	height: initial;
+}
+
+.utility-bill {
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+
+/*FORM*/
+.form-heading {
+	margin-top: 130px;
+}
+
+form {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid #FFC501;
+  font-size: 14px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+	margin-bottom: 20px;
+	color: #FFC501;
+  	font-weight: bold;
+  	font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #FFC501;
+  font-weight: 600;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+button {
+  padding: 16px 24px;
+  background: white;
+  color: #FFC501;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+  width: 160px;
+  border: 0.1px solid #FFC501;
+  border-width: 1px 1px 3px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width:320px) {
+ /* smartphones, iPhone, portrait 480x320 phones */ 
+ 	body {
+		font-size: 11px;
+	}
+
+	.eligibility-content {
+		font-size: 13px;
+		margin-top: 40px;
+	}
+
+}
+@media (min-width:481px) { 
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	.utility-headline2 {
+		font-size: 20px;
+	}
+
+	/*SERAYA LOGO*/
+	.serayalogo {
+		margin-top: 110px;
+		margin-bottom: 15px;
+		width: 90px;
+		height: 75px;
+	}
+
+	.why-img {
+		margin-top: 130px;
+	}
+
+	.why-content {
+		font-size: 18px;
+	}
+
+	.who-content {
+		width: 90%;
+		max-width: 350px;
+	}
+
+	.testimonials-heading {
+		margin-top: 140px;
+	}
+
+	.eligibility-heading {
+		margin-top: 150px;
+	}
+
+	.eligibility-content {
+		font-size: 15px;
+		margin-top: 50px;
+	}
+
+	.threestepsapplication-heading {
+		margin-top: 150px;
+	}
+
+	ol li {
+		font-size: 14px;
+		max-width: 300px;
+	}
+
+	.form-heading {
+		margin-top: 140px;
+	}	
+	 
+}
+@media (min-width:641px) { 
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+	h2 {
+		font-size: 25px;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.utility-headline {
+		font-size: 70px;
+	} 
+
+	.utility-headline2 {
+		font-size: 25px;
+	}
+
+	.serayalogo {
+		margin-top: 120px;
+		width: 100px;
+		height: 80px;
+	}
+
+	.why-img {
+		margin-top: 140px;
+	}
+
+	.why-content {
+		font-size: 20px;
+	}
+
+	.yoursavings-light {
+		font-size: 13px;
+	}
+
+	.twenty-percent {
+		margin-top: 140px;
+	}
+
+	.testimonials-heading {
+		margin-top: 160px;
+	}
+
+	.eligibility-heading {
+		margin-top: 160px;
+	}
+
+	.eligibility-content {
+		font-size: 17px;		
+		margin-top: 60px;
+	}
+
+	.threestepsapplication-heading {
+		margin-top: 160px;
+	}	
+
+	.form-heading {
+		margin-top: 150px;
+	} 
+
+	ol li {
+		font-size: 15px;
+	}	 
+}
+@media (min-width:961px) { 
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+	.who-container-flex,
+	.why-container-flex,
+	.twenty-percent-container-flex {
+		width: 80%;
+		margin: auto;
+	} 
+
+	/*flex to make two columns content*/
+	.who-container-flex {
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 160px;
+	}
+
+	.who-item-left {
+		width: 50%;
+		margin-top: 30px;
+	}
+
+	.who-item-right {
+		width: 50%;
+	}
+
+	.why-container-flex {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+		margin-top: 160px;
+	}
+
+	.why-item-left {
+		margin-top: 40px;
+		width: 50%;
+	}
+
+	.why-item-right {
+		width: 50%;
+	}
+
+	.twenty-percent-container-flex {
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 160px;
+	}
+
+	.twenty-percent-item-left {
+		width: 50%;		
+	}
+
+	.twenty-percent {
+		font-size: 250px;
+	}
+
+	.twenty-percent-item-right {
+		width: 50%;
+		margin-top: 80px;
+	}
+
+	.utility-headline {
+		font-size: 90px;
+	} 
+
+	.utility-headline2 {
+		font-size: 30px;
+	}
+
+	.who-heading {
+
+	}
+
+	.testimonials-heading {
+		margin-top: 170px;
+	}
+
+	.threestepsapplication-heading {
+		margin-top: 170px;
+	}
+
+	.eligibility-heading {
+		margin-top: 170px;
+	}	
+
+	.serayalogo {
+		margin-top: 60px;
+		width: 110px;
+		height: 85px;
+	}
+
+	.why-img {
+		width: 220px;
+		height: 139px;
+	}
+
+	.why-content {
+		font-size: 22px;
+	}
+
+	.eligibility-content {
+		font-size: 18px;
+		margin-top: 70px;
+	}
+
+	ol li {
+		font-size: 16px;
+		max-width: 350px;
+	}
+
+	.form-heading {
+		margin-top: 160px;
+	}		 
+}
+@media (min-width:1025px) {
+ /* big landscape tablets, laptops, and desktops */ 
+ 	.utility-headline {
+		font-size: 100px;
+	} 
+
+	.threestepsapplication-heading {
+		margin-top: 180px;
+	}	
+
+	.eligibility-heading {
+		margin-top: 180px;
+	}
+
+	.testimonials-heading {
+		margin-top: 180px;
+	}
+
+	.serayalogo {
+		width: 130px;
+		height: 100px;
+	}
+
+	ol li {
+		max-width: 360px;
+	}	
+
+	.form-heading {
+		margin-top: 170px;
+	}			
+}
+@media (min-width:1281px) {
+ /* hi-res laptops and desktops */
+ 	.utility-headline {
+		font-size: 120px;
+	} 
+
+	.utility-headline2 {
+		font-size: 35px;
+	}
+
+	.serayalogo {
+		width: 140px;
+		height: 120px;
+	}
+
+	.testimonials-heading {
+		margin-top: 190px;
+	}
+
+	.eligibility-heading {
+		margin-top: 190px;
+	}
+
+	.eligibility-content {
+		font-size: 20px;
+		margin-top: 80px;
+	}
+
+	.threestepsapplication-heading {
+		margin-top: 190px;
+	}		 
+
+	ol li {
+		font-size: 17px;
+		max-width: 400px;
+	}
+
+	.form-heading {
+		margin-top: 180px;
+	}		
+ }

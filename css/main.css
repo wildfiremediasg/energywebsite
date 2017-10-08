@@ -1,0 +1,171 @@
+/*THIS IS TO STYLE THE HEADER AND FOOTER FOR ALL PAGES*/
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+
+/*Header*/
+header,
+footer {
+	height: 50px;
+	font-family: 'Roboto';
+	background: white;
+}
+
+.header-container {
+	width: 96%;
+	margin: auto;
+}
+
+	/*logo*/
+.logoimg {
+	height: 33px;
+	width: 133px;
+	margin-top: 9px;
+}
+
+	/*hide desktop nav in mobile view*/
+nav {
+	display: none;
+}
+
+/* Dropdown Button */
+.dropbtn  {
+	background: no-repeat;
+	background-image: url("../images/hamburger button1.svg");
+	position: absolute;
+	top: 4px;
+	right: 2%;
+	width: 16px;
+	height: 20px;
+	padding: 10px;
+}
+
+	/* The container <div> - needed to position the dropdown content */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+	margin:0;
+	float: right;
+}
+
+	/* Dropdown Content (Hidden by Default) */
+.dropdown-content,
+.dropdown-content1,
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+	font-size: 14px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 101;
+	right:0;
+	top:40px;
+}
+
+.dropdown-content1 {
+	right: 80px;
+	top: 110px;
+}
+
+.dropdown-content2 {
+	min-width: 120px;
+	right: 30px;
+	top: 50px;
+}
+
+	/* Links inside the dropdown */
+.dropdown-content a,
+.dropdown1 p {
+    color: black;
+    padding: 15px 19px;
+    text-decoration: none;
+    display: block;
+}
+
+	/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f2f2f2}
+
+.dropdown1 p:hover {background-color: #f2f2f2}
+	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show,
+.show1,
+.show2 {display:block;}
+
+
+/*Footer*/
+footer {
+	text-align: center;
+	padding-top: 9px;
+	font-size: 12px;
+}
+
+
+@media (min-width:320px) {
+ /* smartphones, iPhone, portrait 480x320 phones */ 
+}
+@media (min-width:481px) { 
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+}
+}
+@media (min-width:641px) { 
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+}
+@media (min-width:961px) { 
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+		/*hide mobile nav button*/
+	.dropdown {
+		display: none;
+	}
+
+	/*show desktop nav bar*/
+	nav {
+		display: initial;
+	}
+
+	nav a,
+	nav p {
+		text-decoration: none;
+		color: black;
+		font-size: 12px;
+		margin-left: 20px;
+	}
+
+	nav p {
+		margin-top: 4px;
+		margin-bottom: 0;
+		cursor: pointer;
+	}
+
+	.header-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.container {
+		display: flex;
+	}
+}
+@media (min-width:1025px) {
+ /* big landscape tablets, laptops, and desktops */ 
+}
+@media (min-width:1281px) {
+ /* hi-res laptops and desktops */
+  }
