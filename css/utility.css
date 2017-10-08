@@ -71,6 +71,7 @@ h2 {
 	font-family: 'Just Another Hand', cursive;
 	text-align: center;
 	font-size: 100px;
+	color: #0D2379;
 	margin-top: 120px;
 	line-height: 0.8;
 }
@@ -478,6 +479,7 @@ button:hover {
 
 	.twenty-percent {
 		font-size: 250px;
+		color: #FFC501;
 	}
 
 	.twenty-percent-item-right {
