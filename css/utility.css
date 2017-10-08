@@ -513,9 +513,12 @@ button:hover {
 
 	.why-img {
 		display: block;
-		margin-top: 60px;
 		width: 220px;
 		height: 139px;
+	}
+	
+	.why-heading {
+		margin-top: 60px;
 	}
 
 	.why-content {
