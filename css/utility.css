@@ -71,7 +71,7 @@ h2 {
 	display: none;
 	font-family: 'Just Another Hand', cursive;
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 140px;
 	line-height: 0.8;
 }
 
@@ -178,7 +178,7 @@ ol li {
 	width: 108px;
 	height: 67px;
 	margin: auto;
-	margin-top: 120px;
+	margin-top: 140px;
 	margin-bottom: 30px;
 }
 
@@ -314,10 +314,6 @@ button:hover {
 		height: 75px;
 	}
 
-	.why-img {
-		margin-top: 130px;
-	}
-
 	.why-content {
 		font-size: 18px;
 	}
@@ -383,10 +379,6 @@ button:hover {
 		width: 100px;
 		height: 80px;
 	}
-
-	.why-img {
-		margin-top: 140px;
-	}
 	
 	.why-heading {
 		margin-top: 160px;
@@ -402,10 +394,6 @@ button:hover {
 
 	.yoursavings-light {
 		font-size: 13px;
-	}
-
-	.twenty-percent {
-		margin-top: 140px;
 	}
 
 	.testimonials-heading {
