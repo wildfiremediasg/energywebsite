@@ -68,10 +68,9 @@ h2 {
 }
 
 .twenty-percent {
+	display: none;
 	font-family: 'Just Another Hand', cursive;
 	text-align: center;
-	font-size: 100px;
-	color: #0D2379;
 	margin-top: 120px;
 	line-height: 0.8;
 }
@@ -466,6 +465,12 @@ button:hover {
 	.why-item-right {
 		width: 50%;
 	}
+	
+	.twenty-percent {
+		display: initial;
+		font-size: 250px;
+		color: #FFC501;
+	}
 
 	.twenty-percent-container-flex {
 		display: flex;
@@ -475,11 +480,6 @@ button:hover {
 
 	.twenty-percent-item-left {
 		width: 50%;		
-	}
-
-	.twenty-percent {
-		font-size: 250px;
-		color: #FFC501;
 	}
 
 	.twenty-percent-item-right {
