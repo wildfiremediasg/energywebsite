@@ -63,7 +63,7 @@ h2 {
 }
 
 .why-heading {
-	margin-top: 60px;
+	margin-top: 130px;
 	margin-bottom: 40px;
 }
 
@@ -75,7 +75,7 @@ h2 {
 	line-height: 0.8;
 }
 
-.yousavings-heading {
+.yoursavings-heading {
 	margin-top: 60px;
 }
 
@@ -162,11 +162,6 @@ ol li {
 
 /*IMAGES*/
 
- 	/*hides light bulb img in mobile view*/
-.lightbulb-img {
-	display: none;
-}
-
 	/*SERAYA LOGO*/
 .serayalogo {
 	display: block;
@@ -179,7 +174,7 @@ ol li {
 
 	/*WHY img*/
 .why-img {
-	display: block;
+	display: none;
 	width: 108px;
 	height: 67px;
 	margin: auto;
@@ -331,9 +326,13 @@ button:hover {
 		width: 90%;
 		max-width: 350px;
 	}
+	
+	.why-heading {
+		margin-top: 150px;
+	}
 
 	.testimonials-heading {
-		margin-top: 140px;
+		margin-top: 150px;
 	}
 
 	.eligibility-heading {
@@ -383,6 +382,10 @@ button:hover {
 
 	.why-img {
 		margin-top: 140px;
+	}
+	
+	.why-heading {
+		margin-top: 160px;
 	}
 
 	.why-content {
@@ -490,10 +493,6 @@ button:hover {
 		font-size: 30px;
 	}
 
-	.who-heading {
-
-	}
-
 	.testimonials-heading {
 		margin-top: 170px;
 	}
@@ -513,11 +512,13 @@ button:hover {
 	}
 
 	.why-img {
+		margin-top: 60px;
 		width: 220px;
 		height: 139px;
 	}
 
 	.why-content {
+		display: block;
 		font-size: 22px;
 	}
 
