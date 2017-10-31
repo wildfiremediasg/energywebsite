@@ -1,0 +1,156 @@
+/*THIS IS TO STYLE BODY OF CONTACT US PAGE*/
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.printing-headline {
+	padding-top :30px;
+}
+
+/*TEXT*/
+/*Font Family*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.printing-headline {
+	font-family: 'roboto', sans-serif;
+}
+
+/*Font Size*/
+.printing-headline {
+	font-size: 50px;
+}
+
+.services {
+	font-size: 14px;
+}
+
+/*Font Style*/
+.printing-headline,
+.diff {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.services {
+	font-weight: 300;
+}
+
+/*Line Height*/
+.printing-headline {
+	line-height: 1;
+}
+
+/*Color*/
+.free-delivery {
+	color: #50ACEC;
+}
+
+.best-price {
+	color: #FFEC00;
+}
+
+.quick-online {
+	color: #FA6098;
+}
+
+/*Alignment*/
+.printing-headline,
+.diff,
+.services,
+.budgetprinting-page-link {
+	text-align: center;
+}
+
+.budgetprinting-page-link {
+	display: block;
+}
+
+.services {
+	margin: auto;
+}
+
+/*Width*/
+.services {
+	max-width: 300px;
+}
+
+/*Spacing*/
+.services,
+.free-delivery,
+.budgetprinting-page-link {
+	margin-top: 50px;
+}
+
+
+/*IMAGES*/
+
+/*Size*/
+/*Color dots*/
+.color-dots-img {
+	width: 100px;
+	height: 100px;
+}
+
+/*Alignment */
+.color-dots-img {
+	display: block;
+	margin: auto;
+}
+
+/*Spacing*/
+/*.color-dots-img {
+	margin-top: 0;
+	margin-bottom: 0;
+}*/
+
+
+
+
+@media (min-width:320px) {
+ /* smartphones, iPhone, portrait 480x320 phones */ 
+}
+@media (min-width:481px) { 
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+}
+	
+@media (min-width:641px) { 
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	/*TEXT*/
+	/*Font Size*/
+	.printing-headline {
+		font-size: 70px;
+	}
+}
+@media (min-width:961px) { 
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+	/*TEXT*/
+	/*Font Size*/
+	.printing-headline {
+		font-size: 90px;
+	}
+}
+@media (min-width:1025px) {
+ /* big landscape tablets, laptops, and desktops */ 
+ 	/*TEXT*/
+	/*Font Size*/
+	.printing-headline {
+		font-size: 100px;
+	}
+}
+@media (min-width:1281px) {
+ /* hi-res laptops and desktops */
+ /*TEXT*/
+	/*Font Size*/
+	.printing-headline {
+		font-size: 120px;
+	}
+}
