@@ -9,6 +9,10 @@ li {
 	margin-bottom: 10px;
 }
 
+.cl-headline {
+	padding-top: 50px;
+}
+
 .cl-headline-bottom-desktop {
 	display: none;
 }
