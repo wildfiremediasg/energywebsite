@@ -306,6 +306,9 @@ button:hover {
 	}
 
 	/*Spacing*/
+	.cl-headline {
+		padding-top: 0;
+	}
 	.sub-headings {
 		margin-top: 150px;
 		margin-bottom: 40px;
