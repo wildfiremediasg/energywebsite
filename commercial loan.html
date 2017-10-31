@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BizConnect</title>
+        <link rel="icon" href="images/small logo.png" type="image/png">
+    	<meta name="description" content="Connecting Businesses.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/commercialloan.css">
+    	<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="header-container">
+                <!-- logo -->
+                <a href="index.html" id="logo">
+                    <img src="images/bizconnect logo.svg" class="logoimg" alt="BizConnect logo" >
+                </a>
+
+                <!-- mobile nav -->
+                <div class="dropdown">
+                    <p onclick="myFunction()" class="dropbtn">
+                        
+                    </p>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown1">
+                            <p onclick="myFunction1()" class="dropbtn1">Services</p>
+                            <div id="myDropdown1" class="dropdown-content1">
+                                <a href="broadband-phone.html">Broadband/Phone</a>
+                                <a href="printing.html">Budget Printing</a>
+                                <a href="commercial loan.html">Commercial Loan</a>
+                                <a href="utility.html">Utility</a>
+                            </div>
+                        </div>
+                        <a href="contact.html">Contact</a>                 
+                    </div>
+                </div>
+
+                <!-- desktop nav -->
+                <nav>
+                    <ul class="container">
+                          <li><a href="index.html">Home</a></li>
+                          <div class="dropdown2">
+                            <p onclick="myFunction2()" class="dropbtn2">Services</p>
+                            <div id="myDropdown2" class="dropdown-content2">
+                                <a href="broadband-phone.html">Broadband/Phone</a>
+                                <a href="printing.html">Budget Printing</a>
+                                <a href="commercial loan.html">Commercial Loan</a>
+                                <a href="utility.html">Utility</a>
+                            </div>
+                        </div>
+                          <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>    
+        </header>
+
+        <section>
+            <h1 class="cl-headline">Commercial Loans</h1>
+
+<!--             <h1 class="cl-headline-bottom cl-headline-bottom-desktop">IN ALMOST EVERY BANK IN SINGAPORE!</h1>
+ -->            
+            <img class="bank-img" src="images/commercial loan/logos.jpg">
+
+            <h1 class="cl-headline-bottom cl-headline-bottom-mobile">WE HAVE CONTACTS IN ALMOST EVERY BANK IN SINGAPORE!</h1>
+
+            <h2 class="sub-headings typesofloanservices">Types of Loan Services We Provide</h2>
+            <div class="flex-container-1">
+                <img class="loan-approved-img" src="images/commercial loan/loan approved.jpg">
+                <div class="content">
+                    <ol>
+                        <li>Working Capital Loan</li>
+                        <li>Micro Loan</li>
+                        <li>Business Term Loan</li>
+                        <li>Project Financing</li>
+                        <li>Machinery & Equipment Financing</li>
+                        <li>Factoring</li>
+                        <li>Letter of Credit</li>
+                        <li>Invoice Financing</li>
+                        <li>Overdraft</li>
+                        <li>Commercial Property Loan</li>
+                    </ol>
+                </div>
+            </div>
+
+            <h4 class="ps">*We emphasize more on Working Capital Loan followed by Micro Loan, and followed by others.</h4>
+
+            <h2 class="sub-headings criterias">Criterias for Working Capital Loan & Micro Loan</h2>
+            <div class="flex-container-2">
+                <img class="requirements-img" src="images/commercial loan/requirements.jpg">
+                <div class="content">
+                    <ol>
+                        <li>Company registered & operating in Singapore</li>
+                        <li>At least 30% local shareholding</li>
+                        <li>Group annual sales of less than S$100 million or group employment size of less than 200 pax</li>
+                    </ol>
+                </div>
+            </div>
+
+            <h2 class="sub-headings what">What You Get!</h2>
+            <div class="flex-container-3">
+                <h3 class="moneysign">$$$</h3>
+                <div class="content what-content">
+                    <p class="WCL-bold">Working Capital Loan</p>
+                    <p>- Max S$300,000<br>- Max 5 years loan tenure</p>
+
+                    <p class="ML-bold">Micro Loan</p>
+                    <p>- Max S$100,000<br>- Max 4 years loan tenure</p>
+                </div>
+            </div>
+            <h4 class="ps">*Processing fee applied to all successful loans will differ accordingly across different banks.</h4>
+            
+
+            <h2 class="sub-headings how">How to Sign Up?</h2>
+            <div class="content how-content">
+                <ol>
+                    <li>Check whether you qualify.</li>
+                    <li>Fill up our form below!</li>
+                    <li>We will contact you shortly.</li>
+                </ol>
+            </div>
+
+            <h2 class="sub-headings form-heading">Form</h2>
+            <div class="form-container">
+                <form class="form" action="" method="Post">
+                    <fieldset>
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" name="client_name">
+
+                            <label for="cname">Company Name*</label>
+                            <input type="text" id="cname" name="company_name">
+
+                            <label for="contact">Contact*</label>
+                            <input type="tel" id="tel" name="client_contact">
+
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="client_email">
+                    </fieldset>
+                            
+                    <fieldset>
+                            <label for="loanamount">Loan Amount*</label>
+                            <input type="number" id="loanamount" name="client_loan_amount">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" name="client_message"></textarea>
+                    </fieldset>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+
+
+        </section>
+
+        <footer>
+            <div class="footer">
+                <p>&copy; 2017 BizConnect SG LLP Biz Reg No.T17LL1930C</p>
+            </div>
+        </footer>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction1() {
+                document.getElementById("myDropdown1").classList.toggle("show1");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn1')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content1");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show1')) {
+                    openDropdown.classList.remove('show1');
+                  }
+                }
+              }
+            }
+        </script>
+
+         <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction2() {
+                document.getElementById("myDropdown2").classList.toggle("show2");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn2')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content2");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show2')) {
+                    openDropdown.classList.remove('show2');
+                  }
+                }
+              }
+            }
+        </script>
+    </body>
+
+</html>

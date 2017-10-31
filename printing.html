@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BizConnect</title>
+        <link rel="icon" href="images/small logo.png" type="image/png">
+    	<meta name="description" content="Connecting Businesses.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/printing.css">
+    	<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="header-container">
+                <!-- logo -->
+                <a href="index.html" id="logo">
+                    <img src="images/bizconnect logo.svg" class="logoimg" alt="BizConnect logo" >
+                </a>
+
+                <!-- mobile nav -->
+                <div class="dropdown">
+                    <p onclick="myFunction()" class="dropbtn">
+                        
+                    </p>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown1">
+                            <p onclick="myFunction1()" class="dropbtn1">Services</p>
+                            <div id="myDropdown1" class="dropdown-content1">
+                                <a href="broadband-phone.html">Broadband/Phone</a>
+                                <a href="printing.html">Budget Printing</a>
+                                <a href="commercial loan.html">Commercial Loan</a>
+                                <a href="utility.html">Utility</a>
+                            </div>
+                        </div>
+                        <a href="contact.html">Contact</a>                 
+                    </div>
+                </div>
+
+                <!-- desktop nav -->
+                <nav>
+                    <ul class="container">
+                          <li><a href="index.html">Home</a></li>
+                          <div class="dropdown2">
+                            <p onclick="myFunction2()" class="dropbtn2">Services</p>
+                            <div id="myDropdown2" class="dropdown-content2">
+                                <a href="broadband-phone.html">Broadband/Phone</a>
+                                <a href="printing.html">Budget Printing</a>
+                                <a href="commercial loan.html">Commercial Loan</a>
+                                <a href="utility.html">Utility</a>
+                            </div>
+                        </div>
+                          <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>    
+        </header>
+
+        <section>
+            <h1 class="printing-headline">Budget Printing</h1>
+            <img class="color-dots-img" src="images/color dots.svg">
+            <h2 class="free-delivery diff">Free Delivery</h2>
+            <h2 class="best-price diff">Best Price in SG. No GST.</h2>
+            <h2 class="quick-online diff">Quick Online Ordering</h2>
+            <h1 class="services">Flyer | Namecard | Invoice Bill Book
+            Outdoor Banner | Coupons | Booklet
+            Flash Stamp Chops | Stickers | Labels
+            Envelopes | Ang Pow | Catalogues
+            Invitation Cards | Tissue Pack |
+            Fridge Magnet | Odd Shape Flyers</h1>
+
+            <a class="budgetprinting-page-link" href="https://budgetprinting.com.sg" target="_blank">Click to find out more!</a>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <p>&copy; 2017 BizConnect SG LLP Biz Reg No.T17LL1930C</p>
+            </div>
+        </footer>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction1() {
+                document.getElementById("myDropdown1").classList.toggle("show1");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn1')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content1");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show1')) {
+                    openDropdown.classList.remove('show1');
+                  }
+                }
+              }
+            }
+        </script>
+
+         <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction2() {
+                document.getElementById("myDropdown2").classList.toggle("show2");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn2')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content2");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show2')) {
+                    openDropdown.classList.remove('show2');
+                  }
+                }
+              }
+            }
+        </script>
+    </body>
+
+</html>
