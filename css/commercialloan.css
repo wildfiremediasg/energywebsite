@@ -117,9 +117,8 @@ body {
 
 /*Size*/
 /*bank image*/
-.bank-img {
+.bank-img-mobile {
 	width: 250px;
-	height: 168.8px;
 }
 
 .loan-approved-img {
@@ -142,12 +141,17 @@ body {
 
 /*Alignment*/
 .bank-img,
+.bank-img-mobile,
 .loan-approved-img,
 .requirements-img,
 .moneysign {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.bank-img {
+	display: none;
 }
 
 /*FORM*/
@@ -245,8 +249,17 @@ button:hover {
 	.cl-headline-bottom {
 	font-size: 35px;
 	}
+	
 	/*IMAGES*/
-
+/* 	Alignment */
+	.bank-img {
+		display: block;
+	}
+	
+	.bank-img-mobile {
+		display: none;
+	}
+	
 	/*Size*/
 	.bank-img {
 		width: 375px;
@@ -254,13 +267,17 @@ button:hover {
 	}
 
 	/*Spacing*/
+	.cl-headline {
+		padding-top: 0;
+	}
+	
 	.bank-img,
 	.loan-approved-img,
 	.requirements-img {
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
-
+	
 }
 @media (min-width:961px) { 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
