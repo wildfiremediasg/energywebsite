@@ -114,10 +114,13 @@ body {
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 	/*TEXT */
 	/*Font Size*/
-	.events-misc-headline,
-	.events-misc-headline2
+	.events-misc-headline
 	{
 		font-size: 70px;
+	}
+	
+	.events-misc-headline2 {
+		font-size: 45px;
 	}
 	/*IMAGES*/
 	.hero-img-mobile {
@@ -167,10 +170,13 @@ body {
 
 	/*TEXT */
 	/*Font Size*/
-	.events-misc-headline,
-	.events-misc-headline2
+	.events-misc-headline
 	{
 		font-size: 90px;
+	}
+	
+	.events-misc-headline2 {
+		font-size: 55px;
 	}
 
 	.what-we-provide {
@@ -207,10 +213,13 @@ body {
 
  	/*TEXT */
 	/*Font Size*/
-	.events-misc-headline,
-	.events-misc-headline2 
+	.events-misc-headline
 	{
 		font-size: 100px;
+	}
+	
+	.events-misc-headline2 {
+		font-size: 65px;
 	}
 	
 	.main-img {
@@ -221,9 +230,12 @@ body {
  /* hi-res laptops and desktops */
  	/*TEXT */
 	/*Font Size*/
-	.events-misc-headline,
-	.events-misc-headline2	{
+	.events-misc-headline {
 		font-size: 120px;
+	}
+	
+	.events-misc-headline2 {
+		font-size: 75px;
 	}
 
 }
